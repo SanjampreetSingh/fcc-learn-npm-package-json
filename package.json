@@ -1,22 +1,27 @@
 {
-	"name": "fcc-learn-npm-package-json",
+  "name": "fcc-learn-npm-package-json",
   "author": "Sanjampreet Singh",
   "description": "A project from FCC",
-  "keywords": [ "freecodecamp", "node", "backend" ],
+  "keywords": [
+    "freecodecamp",
+    "node",
+    "backend"
+  ],
   "license": "MIT",
   "version": "0.1.0",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "8.11.2"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.10.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
